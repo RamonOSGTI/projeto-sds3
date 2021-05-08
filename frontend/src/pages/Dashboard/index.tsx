@@ -1,6 +1,6 @@
-import Barchart from "components/BarChart";
+import BarChart from "components/BarChart";
 import DataTable from "components/DataTable";
-import Donutchart from "components/DonutChart";
+import DonutChart from "components/DonutChart";
 import Footer from "components/Footer";
 import NavBar from "components/NavBar";
 
@@ -14,11 +14,11 @@ const Dashboard = () => {
                 <div className="row px-3">
                     <div className="col-sm-6">
                         <h5 className="text-center text-secondary">Taxa de Sucesso (%)</h5>
-                        <Barchart />
+                        <BarChart />
                     </div>
                     <div className="col-sm-6">
                         <h5 className="text-center text-secondary">Taxa de Sucesso (%)</h5>
-                        <Donutchart />
+                        <DonutChart />
                     </div>
                 </div>
                 <div className="py-3">
